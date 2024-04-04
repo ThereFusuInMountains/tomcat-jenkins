@@ -1,0 +1,18 @@
+24-Mar-2024 10:24:25.519 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Mar-2024 10:24:32.454 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2024 10:24:32.454 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2024 10:24:32.455 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@a91212e')
+24-Mar-2024 10:33:31.705 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Mar-2024 10:33:38.180 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2024 10:33:38.180 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2024 10:33:38.184 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@674d14ff')
+24-Mar-2024 12:50:53.554 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2024 12:50:53.554 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2024 22:53:24.009 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Mar-2024 22:53:29.776 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2024 22:53:29.776 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2024 22:53:29.778 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@63f70fd7')
+24-Mar-2024 23:57:11.668 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Mar-2024 23:57:17.409 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2024 23:57:17.409 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2024 23:57:17.411 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1e1f9de4')

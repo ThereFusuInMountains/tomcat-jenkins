@@ -1,0 +1,1397 @@
+24-Mar-2024 00:27:02.817 警告 [Handling GET /jenkins/manage/ from 192.168.199.138 : http-nio-8080-exec-3] hudson.init.impl.InstallUncaughtExceptionHandler.handleException null
+	javax.servlet.ServletException: org.apache.commons.jelly.JellyTagException: jar:file:/E:/tomcat/webapps/jenkins/WEB-INF/lib/jenkins-core-2.440.2.jar!/lib/layout/icon.jelly:80:32: <j:out> could not write the XMLOutput
+		at org.kohsuke.stapler.ScriptRequestDispatcher.forward(ScriptRequestDispatcher.java:101)
+		at hudson.model.DirectoryBrowserSupport.serveFile(DirectoryBrowserSupport.java:350)
+		at hudson.model.DirectoryBrowserSupport.generateResponse(DirectoryBrowserSupport.java:171)
+		at org.kohsuke.stapler.HttpResponseRenderer$Default.handleHttpResponse(HttpResponseRenderer.java:124)
+		at org.kohsuke.stapler.HttpResponseRenderer$Default.generateResponse(HttpResponseRenderer.java:69)
+		at org.kohsuke.stapler.Function.renderResponse(Function.java:159)
+		at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:142)
+		at org.kohsuke.stapler.MetaClass$10.dispatch(MetaClass.java:501)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.MetaClass$9.dispatch(MetaClass.java:475)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.MetaClass$4.doDispatch(MetaClass.java:289)
+		at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:59)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.MetaClass$2.doDispatch(MetaClass.java:224)
+		at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:59)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.MetaClass$9.dispatch(MetaClass.java:475)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.MetaClass$4.doDispatch(MetaClass.java:289)
+		at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:59)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.MetaClass$4.doDispatch(MetaClass.java:289)
+		at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:59)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:698)
+		at org.kohsuke.stapler.Stapler.service(Stapler.java:248)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:163)
+		at jenkins.util.HttpServletFilter$1.doFilter(HttpServletFilter.java:76)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:160)
+		at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.ErrorAttributeFilter.doFilter(ErrorAttributeFilter.java:29)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:160)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:94)
+		at jenkins.security.AcegiSecurityExceptionFilter.doFilter(AcegiSecurityExceptionFilter.java:52)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:54)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:110)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:101)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:97)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+		at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:63)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:111)
+		at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:172)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:86)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.security.SuspiciousRequestFilter.doFilter(SuspiciousRequestFilter.java:38)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: org.apache.commons.jelly.JellyTagException: jar:file:/E:/tomcat/webapps/jenkins/WEB-INF/lib/jenkins-core-2.440.2.jar!/lib/layout/icon.jelly:80:32: <j:out> could not write the XMLOutput
+		at org.apache.commons.jelly.tags.core.ExprTag.doTag(ExprTag.java:49)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+		at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+		at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:99)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:66)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:55)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:56)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:43)
+		at org.kohsuke.stapler.ScriptRequestDispatcher.forward(ScriptRequestDispatcher.java:97)
+		... 106 more
+	Caused by: org.xml.sax.SAXException: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.dom4j.io.XMLWriter.handleException(XMLWriter.java:1852)
+		at org.dom4j.io.XMLWriter.characters(XMLWriter.java:780)
+		at org.apache.commons.jelly.XMLOutput.characters(XMLOutput.java:590)
+		at org.apache.commons.jelly.XMLOutput.write(XMLOutput.java:249)
+		at org.apache.commons.jelly.tags.core.ExprTag.doTag(ExprTag.java:46)
+		... 165 more
+	Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:345)
+		at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:780)
+		at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:677)
+		at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:380)
+		at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:358)
+		at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:103)
+		at com.jcraft.jzlib.DeflaterOutputStream.deflate(DeflaterOutputStream.java:144)
+		at com.jcraft.jzlib.DeflaterOutputStream.write(DeflaterOutputStream.java:102)
+		at org.kohsuke.stapler.compression.FilterServletOutputStream.write(FilterServletOutputStream.java:41)
+		at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.write(OnCommittedResponseWrapper.java:638)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker$1.write(DefaultScriptInvoker.java:136)
+		at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:291)
+		at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:362)
+		at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:338)
+		at java.base/sun.nio.cs.StreamEncoder.lockedWrite(StreamEncoder.java:152)
+		at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:133)
+		at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:217)
+		at java.base/java.io.BufferedWriter.implFlushBuffer(BufferedWriter.java:178)
+		at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:163)
+		at java.base/java.io.BufferedWriter.implWrite(BufferedWriter.java:334)
+		at java.base/java.io.BufferedWriter.write(BufferedWriter.java:313)
+		at java.base/java.io.Writer.write(Writer.java:278)
+		at org.dom4j.io.XMLWriter.characters(XMLWriter.java:771)
+		... 168 more
+	Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+		at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+		at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:566)
+		at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:618)
+		at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1423)
+		at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:775)
+		at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:600)
+		at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:544)
+		at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:540)
+		at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:112)
+		at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+		at org.apache.coyote.Response.doWrite(Response.java:608)
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:333)
+		... 190 more
+24-Mar-2024 01:52:26.240 警告 [Handling GET /jenkins/ from 192.168.199.138 : http-nio-8080-exec-2] hudson.init.impl.InstallUncaughtExceptionHandler.handleException null
+	javax.servlet.ServletException: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.kohsuke.stapler.Facet.handleIndexRequest(Facet.java:287)
+		at org.kohsuke.stapler.jelly.JellyFacet.handleIndexRequest(JellyFacet.java:104)
+		at org.kohsuke.stapler.IndexViewDispatcher.dispatch(IndexViewDispatcher.java:32)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:836)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:698)
+		at org.kohsuke.stapler.Stapler.service(Stapler.java:248)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:163)
+		at jenkins.util.HttpServletFilter$1.doFilter(HttpServletFilter.java:76)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:160)
+		at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.ErrorAttributeFilter.doFilter(ErrorAttributeFilter.java:29)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:160)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:94)
+		at jenkins.security.AcegiSecurityExceptionFilter.doFilter(AcegiSecurityExceptionFilter.java:52)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:54)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:110)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:101)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:97)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+		at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:63)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:111)
+		at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:172)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:86)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.security.SuspiciousRequestFilter.doFilter(SuspiciousRequestFilter.java:38)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:345)
+		at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:780)
+		at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:677)
+		at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:380)
+		at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:358)
+		at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:103)
+		at com.jcraft.jzlib.DeflaterOutputStream.deflate(DeflaterOutputStream.java:144)
+		at com.jcraft.jzlib.DeflaterOutputStream.finish(DeflaterOutputStream.java:111)
+		at com.jcraft.jzlib.DeflaterOutputStream.close(DeflaterOutputStream.java:117)
+		at org.kohsuke.stapler.compression.FilterServletOutputStream.close(FilterServletOutputStream.java:46)
+		at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.close(OnCommittedResponseWrapper.java:529)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker$1.close(DefaultScriptInvoker.java:148)
+		at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:413)
+		at java.base/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:231)
+		at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:216)
+		at java.base/java.io.OutputStreamWriter.close(OutputStreamWriter.java:264)
+		at java.base/java.io.BufferedWriter.implClose(BufferedWriter.java:398)
+		at java.base/java.io.BufferedWriter.close(BufferedWriter.java:380)
+		at org.dom4j.io.XMLWriter.close(XMLWriter.java:285)
+		at org.kohsuke.stapler.jelly.HTMLWriterOutput.close(HTMLWriterOutput.java:75)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:58)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:56)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:43)
+		at org.kohsuke.stapler.Facet.handleIndexRequest(Facet.java:284)
+		... 81 more
+	Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+		at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+		at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:566)
+		at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:618)
+		at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1423)
+		at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:775)
+		at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:600)
+		at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:544)
+		at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:540)
+		at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:112)
+		at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+		at org.apache.coyote.Response.doWrite(Response.java:608)
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:333)
+		... 104 more
+24-Mar-2024 10:24:03.829 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.87
+24-Mar-2024 10:24:03.840 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 11 2024 10:12:34 UTC
+24-Mar-2024 10:24:03.848 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.87.0
+24-Mar-2024 10:24:03.848 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+24-Mar-2024 10:24:03.848 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+24-Mar-2024 10:24:03.848 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+24-Mar-2024 10:24:03.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\Java\jdk-22
+24-Mar-2024 10:24:03.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    22+36-2370
+24-Mar-2024 10:24:03.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+24-Mar-2024 10:24:03.850 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\tomcat
+24-Mar-2024 10:24:03.850 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\tomcat
+24-Mar-2024 10:24:04.114 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2024 10:24:04.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2024 10:24:04.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2024 10:24:04.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2024 10:24:04.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2024 10:24:04.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\tomcat\conf\logging.properties
+24-Mar-2024 10:24:04.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2024 10:24:04.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2024 10:24:04.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2024 10:24:04.123 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+24-Mar-2024 10:24:04.123 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\tomcat
+24-Mar-2024 10:24:04.123 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\tomcat
+24-Mar-2024 10:24:04.123 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\tomcat\temp
+24-Mar-2024 10:24:04.140 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[E:\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;D:\Python\Python38\Scripts\;D:\Python\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath1;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Lua\Lua54;D:\Lua\Lua53\;D:\Lua\;D:\PortableGit;D:\PortableGit\cmd;D:\PortableGit\bin;D:\PortableGit\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;E:\Java\jdk-22\bin;D:\nodejs\;E:\BaiduNetdiskDownload\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;%IntelliJ IDEA%;%IntelliJ IDEA Community Edition%;%USERPROFILE%\.dotnet\tools;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\UGit\app-5.18.2\resources\app\git\cmd;C:\Users\Administrator\AppData\Local\UGit\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+24-Mar-2024 10:24:05.128 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+24-Mar-2024 10:24:05.307 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[3219]毫秒内初始化
+24-Mar-2024 10:24:05.422 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+24-Mar-2024 10:24:05.422 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.87]
+24-Mar-2024 10:24:05.637 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[E:\tomcat\webapps\jenkins.war]
+24-Mar-2024 10:24:25.463 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+24-Mar-2024 10:24:26.774 信息 [main] hudson.WebAppMain.contextInitialized Jenkins home directory: E:\tomcat\Jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+24-Mar-2024 10:24:27.632 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[E:\tomcat\webapps\jenkins.war]的部署已在[21,994]ms内完成
+24-Mar-2024 10:24:27.680 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\docs]
+24-Mar-2024 10:24:27.943 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\docs]的部署已在[263]毫秒内完成
+24-Mar-2024 10:24:27.972 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\download]
+24-Mar-2024 10:24:28.013 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\download]的部署已在[41]毫秒内完成
+24-Mar-2024 10:24:28.033 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\examples]
+24-Mar-2024 10:24:28.411 信息 [pool-7-thread-2] jenkins.InitReactorRunner$1.onAttained Started initialization
+24-Mar-2024 10:24:32.468 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\examples]的部署已在[4,435]毫秒内完成
+24-Mar-2024 10:24:32.490 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\host-manager]
+24-Mar-2024 10:24:32.672 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\host-manager]的部署已在[181]毫秒内完成
+24-Mar-2024 10:24:32.695 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\manager]
+24-Mar-2024 10:24:32.937 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\manager]的部署已在[242]毫秒内完成
+24-Mar-2024 10:24:32.937 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\ROOT]
+24-Mar-2024 10:24:33.053 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\ROOT]的部署已在[116]毫秒内完成
+24-Mar-2024 10:24:33.064 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+24-Mar-2024 10:24:33.386 信息 [main] org.apache.catalina.startup.Catalina.start [28076]毫秒后服务器启动
+24-Mar-2024 10:24:40.042 信息 [pool-7-thread-1] jenkins.InitReactorRunner$1.onAttained Listed all plugins
+24-Mar-2024 10:25:08.596 信息 [pool-7-thread-16] jenkins.InitReactorRunner$1.onAttained Prepared all plugins
+24-Mar-2024 10:25:08.652 信息 [pool-7-thread-4] jenkins.InitReactorRunner$1.onAttained Started all plugins
+24-Mar-2024 10:25:08.864 信息 [GitHubPlugin.runMigrator] jenkins.InitReactorRunner$1.onAttained Augmented all extensions
+24-Mar-2024 10:25:10.566 信息 [GitSCM.onLoaded] hudson.plugins.build_timeout.global.GlobalTimeOutConfiguration.load global timeout not set
+24-Mar-2024 10:25:12.042 信息 [pool-7-thread-16] jenkins.InitReactorRunner$1.onAttained System config loaded
+24-Mar-2024 10:25:12.043 信息 [pool-7-thread-12] jenkins.InitReactorRunner$1.onAttained System config adapted
+24-Mar-2024 10:25:12.493 信息 [pool-7-thread-15] jenkins.InitReactorRunner$1.onAttained Loaded all jobs
+24-Mar-2024 10:25:12.574 信息 [pool-7-thread-1] jenkins.InitReactorRunner$1.onAttained Configuration for all jobs updated
+24-Mar-2024 10:25:12.723 信息 [pool-7-thread-12] jenkins.InitReactorRunner$1.onAttained Completed initialization
+24-Mar-2024 10:25:14.744 信息 [Jenkins initialization thread] hudson.lifecycle.Lifecycle.onReady Jenkins is fully up and running
+24-Mar-2024 10:26:02.846 警告 [Handling GET /jenkins/ from 192.168.199.138 : http-nio-8080-exec-3] hudson.init.impl.InstallUncaughtExceptionHandler.handleException null
+	javax.servlet.ServletException: org.apache.commons.jelly.JellyTagException: jar:file:/E:/tomcat/webapps/jenkins/WEB-INF/lib/jenkins-core-2.440.2.jar!/lib/layout/hasPermission.jelly:41:20: <d:invokeBody> java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.kohsuke.stapler.Facet.handleIndexRequest(Facet.java:287)
+		at org.kohsuke.stapler.jelly.JellyFacet.handleIndexRequest(JellyFacet.java:104)
+		at org.kohsuke.stapler.IndexViewDispatcher.dispatch(IndexViewDispatcher.java:32)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:836)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:698)
+		at org.kohsuke.stapler.Stapler.service(Stapler.java:248)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:163)
+		at jenkins.util.HttpServletFilter$1.doFilter(HttpServletFilter.java:76)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:160)
+		at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.ErrorAttributeFilter.doFilter(ErrorAttributeFilter.java:29)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:160)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:94)
+		at jenkins.security.AcegiSecurityExceptionFilter.doFilter(AcegiSecurityExceptionFilter.java:52)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:54)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:110)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:101)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:97)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+		at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:63)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:111)
+		at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:172)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:86)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.security.SuspiciousRequestFilter.doFilter(SuspiciousRequestFilter.java:38)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: org.apache.commons.jelly.JellyTagException: jar:file:/E:/tomcat/webapps/jenkins/WEB-INF/lib/jenkins-core-2.440.2.jar!/lib/layout/hasPermission.jelly:41:20: <d:invokeBody> java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.apache.commons.jelly.impl.TagScript.handleException(TagScript.java:719)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:275)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.kohsuke.stapler.jelly.CompressTag.doTag(CompressTag.java:45)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:99)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:66)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:55)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:56)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:43)
+		at org.kohsuke.stapler.Facet.handleIndexRequest(Facet.java:284)
+		... 81 more
+	Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:345)
+		at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:780)
+		at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:677)
+		at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:380)
+		at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:358)
+		at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:103)
+		at com.jcraft.jzlib.DeflaterOutputStream.deflate(DeflaterOutputStream.java:144)
+		at com.jcraft.jzlib.DeflaterOutputStream.write(DeflaterOutputStream.java:102)
+		at org.kohsuke.stapler.compression.FilterServletOutputStream.write(FilterServletOutputStream.java:41)
+		at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.write(OnCommittedResponseWrapper.java:638)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker$1.write(DefaultScriptInvoker.java:136)
+		at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:291)
+		at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:386)
+		at java.base/sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:391)
+		at java.base/sun.nio.cs.StreamEncoder.lockedFlush(StreamEncoder.java:208)
+		at java.base/sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:195)
+		at java.base/java.io.OutputStreamWriter.flush(OutputStreamWriter.java:260)
+		at java.base/java.io.BufferedWriter.implFlush(BufferedWriter.java:372)
+		at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:359)
+		at org.dom4j.io.XMLWriter.flush(XMLWriter.java:275)
+		at org.apache.commons.jelly.XMLOutput.flush(XMLOutput.java:127)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:267)
+		... 122 more
+	Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+		at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+		at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:566)
+		at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:618)
+		at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1423)
+		at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:775)
+		at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:600)
+		at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:544)
+		at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:540)
+		at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:112)
+		at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+		at org.apache.coyote.Response.doWrite(Response.java:608)
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:333)
+		... 143 more
+24-Mar-2024 10:26:46.054 警告 [Handling GET /jenkins/job/%E5%B1%B1%E6%9C%89%E6%89%B6%E8%8B%8F/configure from 192.168.199.138 : http-nio-8080-exec-6] hudson.init.impl.InstallUncaughtExceptionHandler.handleException null
+	javax.servlet.ServletException: org.apache.commons.jelly.JellyTagException: jar:file:/E:/tomcat/webapps/jenkins/WEB-INF/lib/jenkins-core-2.440.2.jar!/lib/form/rowSet.jelly:46:36: <j:out> could not write the XMLOutput
+		at org.kohsuke.stapler.Facet$1.dispatch(Facet.java:249)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.MetaClass$4.doDispatch(MetaClass.java:289)
+		at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:59)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:698)
+		at org.kohsuke.stapler.Stapler.service(Stapler.java:248)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:163)
+		at jenkins.util.HttpServletFilter$1.doFilter(HttpServletFilter.java:76)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:160)
+		at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.ErrorAttributeFilter.doFilter(ErrorAttributeFilter.java:29)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:160)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:94)
+		at jenkins.security.AcegiSecurityExceptionFilter.doFilter(AcegiSecurityExceptionFilter.java:52)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:54)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:110)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:101)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:97)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+		at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:63)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:111)
+		at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:172)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:86)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.security.SuspiciousRequestFilter.doFilter(SuspiciousRequestFilter.java:38)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: org.apache.commons.jelly.JellyTagException: jar:file:/E:/tomcat/webapps/jenkins/WEB-INF/lib/jenkins-core-2.440.2.jar!/lib/form/rowSet.jelly:46:36: <j:out> could not write the XMLOutput
+		at org.apache.commons.jelly.tags.core.ExprTag.doTag(ExprTag.java:49)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+		at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+		at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:99)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:66)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:55)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:56)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:43)
+		at org.kohsuke.stapler.Facet$1.dispatch(Facet.java:240)
+		... 81 more
+	Caused by: org.xml.sax.SAXException: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.dom4j.io.XMLWriter.handleException(XMLWriter.java:1852)
+		at org.dom4j.io.XMLWriter.characters(XMLWriter.java:780)
+		at org.apache.commons.jelly.XMLOutput.characters(XMLOutput.java:590)
+		at org.apache.commons.jelly.XMLOutput.write(XMLOutput.java:249)
+		at org.apache.commons.jelly.tags.core.ExprTag.doTag(ExprTag.java:46)
+		... 142 more
+	Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:345)
+		at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:780)
+		at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:677)
+		at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:380)
+		at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:358)
+		at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:103)
+		at com.jcraft.jzlib.DeflaterOutputStream.deflate(DeflaterOutputStream.java:144)
+		at com.jcraft.jzlib.DeflaterOutputStream.write(DeflaterOutputStream.java:102)
+		at org.kohsuke.stapler.compression.FilterServletOutputStream.write(FilterServletOutputStream.java:41)
+		at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.write(OnCommittedResponseWrapper.java:638)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker$1.write(DefaultScriptInvoker.java:136)
+		at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:291)
+		at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:362)
+		at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:338)
+		at java.base/sun.nio.cs.StreamEncoder.lockedWrite(StreamEncoder.java:152)
+		at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:133)
+		at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:217)
+		at java.base/java.io.BufferedWriter.implFlushBuffer(BufferedWriter.java:178)
+		at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:163)
+		at java.base/java.io.BufferedWriter.implWrite(BufferedWriter.java:334)
+		at java.base/java.io.BufferedWriter.write(BufferedWriter.java:313)
+		at java.base/java.io.Writer.write(Writer.java:278)
+		at org.dom4j.io.XMLWriter.characters(XMLWriter.java:771)
+		... 145 more
+	Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+		at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+		at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:566)
+		at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:618)
+		at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1423)
+		at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:775)
+		at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:600)
+		at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:544)
+		at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:540)
+		at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:112)
+		at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+		at org.apache.coyote.Response.doWrite(Response.java:608)
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:333)
+		... 167 more
+24-Mar-2024 10:28:45.914 信息 [Computer.threadPoolForRemoting [#1]: deleting workspace for 山有扶苏/master in E:\tomcat\Jenkins\workspace\_master on master] jenkins.branch.WorkspaceLocatorImpl$Deleter$CleanupTask.run deleting obsolete workspace E:\tomcat\Jenkins\workspace\_master on master
+24-Mar-2024 10:28:52.620 信息 [Computer.threadPoolForRemoting [#1]: deleting workspace for 山有扶苏/master in E:\tomcat\Jenkins\workspace\_master on master] jenkins.branch.WorkspaceLocatorImpl$Deleter$CleanupTask.run deleting obsolete workspace E:\tomcat\Jenkins\workspace\_master@tmp on master
+24-Mar-2024 10:33:21.542 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.87
+24-Mar-2024 10:33:21.547 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 11 2024 10:12:34 UTC
+24-Mar-2024 10:33:21.548 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.87.0
+24-Mar-2024 10:33:21.548 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+24-Mar-2024 10:33:21.548 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+24-Mar-2024 10:33:21.548 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+24-Mar-2024 10:33:21.549 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\Java\jdk-22
+24-Mar-2024 10:33:21.549 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    22+36-2370
+24-Mar-2024 10:33:21.549 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+24-Mar-2024 10:33:21.549 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\tomcat
+24-Mar-2024 10:33:21.549 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\tomcat
+24-Mar-2024 10:33:21.664 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2024 10:33:21.665 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2024 10:33:21.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2024 10:33:21.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2024 10:33:21.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2024 10:33:21.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\tomcat\conf\logging.properties
+24-Mar-2024 10:33:21.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2024 10:33:21.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2024 10:33:21.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2024 10:33:21.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+24-Mar-2024 10:33:21.668 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\tomcat
+24-Mar-2024 10:33:21.668 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\tomcat
+24-Mar-2024 10:33:21.669 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\tomcat\temp
+24-Mar-2024 10:33:21.684 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[E:\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;D:\Python\Python38\Scripts\;D:\Python\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath1;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Lua\Lua54;D:\Lua\Lua53\;D:\Lua\;D:\PortableGit;D:\PortableGit\cmd;D:\PortableGit\bin;D:\PortableGit\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;E:\Java\jdk-22\bin;D:\nodejs\;E:\BaiduNetdiskDownload\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;%IntelliJ IDEA%;%IntelliJ IDEA Community Edition%;%USERPROFILE%\.dotnet\tools;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\UGit\app-5.18.2\resources\app\git\cmd;C:\Users\Administrator\AppData\Local\UGit\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+24-Mar-2024 10:33:22.223 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+24-Mar-2024 10:33:22.398 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1139]毫秒内初始化
+24-Mar-2024 10:33:22.479 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+24-Mar-2024 10:33:22.479 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.87]
+24-Mar-2024 10:33:22.516 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[E:\tomcat\webapps\jenkins.war]
+24-Mar-2024 10:33:31.668 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+24-Mar-2024 10:33:33.048 信息 [main] hudson.WebAppMain.contextInitialized Jenkins home directory: E:\tomcat\Jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+24-Mar-2024 10:33:35.135 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[E:\tomcat\webapps\jenkins.war]的部署已在[12,618]ms内完成
+24-Mar-2024 10:33:35.137 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\docs]
+24-Mar-2024 10:33:35.255 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\docs]的部署已在[118]毫秒内完成
+24-Mar-2024 10:33:35.255 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\download]
+24-Mar-2024 10:33:35.347 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\download]的部署已在[92]毫秒内完成
+24-Mar-2024 10:33:35.355 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\examples]
+24-Mar-2024 10:33:35.877 信息 [pool-7-thread-3] jenkins.InitReactorRunner$1.onAttained Started initialization
+24-Mar-2024 10:33:38.205 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\examples]的部署已在[2,852]毫秒内完成
+24-Mar-2024 10:33:38.207 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\host-manager]
+24-Mar-2024 10:33:38.338 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\host-manager]的部署已在[132]毫秒内完成
+24-Mar-2024 10:33:38.340 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\manager]
+24-Mar-2024 10:33:38.460 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\manager]的部署已在[120]毫秒内完成
+24-Mar-2024 10:33:38.463 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\ROOT]
+24-Mar-2024 10:33:38.659 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\ROOT]的部署已在[196]毫秒内完成
+24-Mar-2024 10:33:38.674 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+24-Mar-2024 10:33:38.758 信息 [main] org.apache.catalina.startup.Catalina.start [16356]毫秒后服务器启动
+24-Mar-2024 10:33:39.703 信息 [Loading plugins] jenkins.InitReactorRunner$1.onAttained Listed all plugins
+24-Mar-2024 10:33:57.333 信息 [pool-7-thread-10] jenkins.InitReactorRunner$1.onAttained Prepared all plugins
+24-Mar-2024 10:33:57.432 信息 [pool-7-thread-8] jenkins.InitReactorRunner$1.onAttained Started all plugins
+24-Mar-2024 10:33:57.481 信息 [pool-7-thread-13] jenkins.InitReactorRunner$1.onAttained Augmented all extensions
+24-Mar-2024 10:33:58.419 信息 [pool-7-thread-8] hudson.plugins.build_timeout.global.GlobalTimeOutConfiguration.load global timeout not set
+24-Mar-2024 10:33:59.885 信息 [pool-7-thread-11] jenkins.InitReactorRunner$1.onAttained System config loaded
+24-Mar-2024 10:33:59.934 信息 [pool-7-thread-3] jenkins.InitReactorRunner$1.onAttained System config adapted
+24-Mar-2024 10:33:59.937 信息 [pool-7-thread-12] jenkins.InitReactorRunner$1.onAttained Loaded all jobs
+24-Mar-2024 10:34:00.102 信息 [pool-7-thread-14] jenkins.InitReactorRunner$1.onAttained Configuration for all jobs updated
+24-Mar-2024 10:34:00.247 信息 [pool-7-thread-1] jenkins.InitReactorRunner$1.onAttained Completed initialization
+24-Mar-2024 10:34:02.033 信息 [Jenkins initialization thread] hudson.lifecycle.Lifecycle.onReady Jenkins is fully up and running
+24-Mar-2024 10:35:21.759 信息 [TCP agent connection handler #1 with /192.168.199.138:50522] hudson.TcpSlaveAgentListener$ConnectionHandler.run Connection #1 from /192.168.199.138:50522 failed: null
+24-Mar-2024 10:35:22.056 信息 [TCP agent connection handler #2 with /192.168.199.138:50523] hudson.TcpSlaveAgentListener$ConnectionHandler.run Accepted JNLP4-connect connection #2 from /192.168.199.138:50523
+24-Mar-2024 10:36:16.144 信息 [Computer.threadPoolForRemoting [#5]] jenkins.slaves.DefaultJnlpSlaveReceiver.channelClosed Computer.threadPoolForRemoting [#5] for Win terminated: java.nio.channels.ClosedChannelException
+24-Mar-2024 10:36:26.163 信息 [TCP agent connection handler #3 with /192.168.199.138:50554] hudson.TcpSlaveAgentListener$ConnectionHandler.run Connection #3 from /192.168.199.138:50554 failed: null
+24-Mar-2024 10:36:26.188 信息 [TCP agent connection handler #4 with /192.168.199.138:50555] hudson.TcpSlaveAgentListener$ConnectionHandler.run Accepted JNLP4-connect connection #4 from /192.168.199.138:50555
+24-Mar-2024 10:36:26.370 信息 [Computer.threadPoolForRemoting [#5]] org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.onRecv [JNLP4-connect connection from DESKTOP-3DRAAKT.lan/192.168.199.138:50555] Refusing headers from remote: Unknown client name: Win
+24-Mar-2024 10:36:36.493 信息 [TCP agent connection handler #5 with /192.168.199.138:50559] hudson.TcpSlaveAgentListener$ConnectionHandler.run Connection #5 from /192.168.199.138:50559 failed: null
+24-Mar-2024 10:36:36.529 信息 [TCP agent connection handler #6 with /192.168.199.138:50560] hudson.TcpSlaveAgentListener$ConnectionHandler.run Accepted JNLP4-connect connection #6 from /192.168.199.138:50560
+24-Mar-2024 10:36:36.579 信息 [Computer.threadPoolForRemoting [#5]] org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.onRecv [JNLP4-connect connection from DESKTOP-3DRAAKT.lan/192.168.199.138:50560] Refusing headers from remote: Unknown client name: Win
+24-Mar-2024 10:36:46.640 信息 [TCP agent connection handler #7 with /192.168.199.138:50564] hudson.TcpSlaveAgentListener$ConnectionHandler.run Connection #7 from /192.168.199.138:50564 failed: null
+24-Mar-2024 10:36:46.671 信息 [TCP agent connection handler #8 with /192.168.199.138:50565] hudson.TcpSlaveAgentListener$ConnectionHandler.run Accepted JNLP4-connect connection #8 from /192.168.199.138:50565
+24-Mar-2024 10:36:46.704 信息 [IOHub#1: Worker[channel:java.nio.channels.SocketChannel[connected local=/192.168.199.138:50486 remote=DESKTOP-3DRAAKT.lan/192.168.199.138:50565]] / Computer.threadPoolForRemoting [#3]] org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.onRecv [JNLP4-connect connection from DESKTOP-3DRAAKT.lan/192.168.199.138:50565] Refusing headers from remote: Unknown client name: Win
+24-Mar-2024 10:36:56.775 信息 [TCP agent connection handler #9 with /192.168.199.138:50569] hudson.TcpSlaveAgentListener$ConnectionHandler.run Connection #9 from /192.168.199.138:50569 failed: null
+24-Mar-2024 10:36:56.789 信息 [TCP agent connection handler #10 with /192.168.199.138:50570] hudson.TcpSlaveAgentListener$ConnectionHandler.run Accepted JNLP4-connect connection #10 from /192.168.199.138:50570
+24-Mar-2024 10:36:56.813 信息 [IOHub#1: Worker[channel:java.nio.channels.SocketChannel[connected local=/192.168.199.138:50486 remote=DESKTOP-3DRAAKT.lan/192.168.199.138:50565]] / Computer.threadPoolForRemoting [#3]] org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.onRecv [JNLP4-connect connection from DESKTOP-3DRAAKT.lan/192.168.199.138:50570] Refusing headers from remote: Unknown client name: Win
+24-Mar-2024 12:50:50.511 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+24-Mar-2024 12:50:50.518 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+24-Mar-2024 12:50:50.545 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+24-Mar-2024 12:50:50.651 信息 [main] hudson.lifecycle.Lifecycle.onStatusUpdate Stopping Jenkins
+24-Mar-2024 12:50:53.119 信息 [main] jenkins.model.Jenkins$16.onAttained Started termination
+24-Mar-2024 12:50:53.182 信息 [main] hudson.plugins.build_timeout.global.Lifecycle.shutdown Shutdown complete - Global TimeOut ScheduledExecutorService had 0 tasks pending
+24-Mar-2024 12:50:53.183 信息 [main] jenkins.model.Jenkins$16.onAttained Completed termination
+24-Mar-2024 12:50:53.183 信息 [main] jenkins.model.Jenkins._cleanUpDisconnectComputers Starting node disconnection
+24-Mar-2024 12:50:53.226 信息 [main] jenkins.model.Jenkins._cleanUpShutdownPluginManager Stopping plugin manager
+24-Mar-2024 12:50:53.297 信息 [main] jenkins.model.Jenkins._cleanUpPersistQueue Persisting build queue
+24-Mar-2024 12:50:53.503 信息 [main] jenkins.model.Jenkins._cleanUpAwaitDisconnects Waiting for node disconnection completion
+24-Mar-2024 12:50:53.504 信息 [main] hudson.lifecycle.Lifecycle.onStatusUpdate Jenkins stopped
+24-Mar-2024 12:50:53.510 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[jenkins]似乎启动了一个名为[hudson.util.AtomicFileWriter.cleaner [#1]]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ java.base/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+ java.base/java.lang.Thread.run(Thread.java:1570)]
+24-Mar-2024 12:50:53.514 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[jenkins]似乎启动了一个名为[JNA Cleaner]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)]
+24-Mar-2024 12:50:53.515 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[jenkins]似乎启动了一个名为[Computer.threadPoolForRemoting [#1]]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+ java.base/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+ java.base/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+ java.base/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:233)
+ java.base/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:336)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)]
+24-Mar-2024 12:50:53.516 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[jenkins]似乎启动了一个名为[Computer.threadPoolForRemoting [#2]]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+ java.base/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+ java.base/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+ java.base/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:233)
+ java.base/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:336)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)]
+24-Mar-2024 12:50:53.516 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[jenkins]似乎启动了一个名为[Computer.threadPoolForRemoting [#7]]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+ java.base/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+ java.base/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+ java.base/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:233)
+ java.base/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:336)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)]
+24-Mar-2024 12:50:53.527 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[jenkins]似乎启动了一个名为[Timeout.interruptions [#1]]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)]
+24-Mar-2024 12:50:53.528 严重 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[jenkins]创建了一个ThreadLocal，其键类型为[java.lang.ThreadLocal]（值为[java.lang.ThreadLocal@65747311]），值类型为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001d1d5237cd0]（值为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001d1d5237cd0@6ddbb0e8），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+24-Mar-2024 12:50:53.531 严重 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[jenkins]创建了一个ThreadLocal，其键类型为[java.lang.ThreadLocal]（值为[java.lang.ThreadLocal@65747311]），值类型为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001d1d5237cd0]（值为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001d1d5237cd0@a26daf9），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+24-Mar-2024 12:50:53.532 严重 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[jenkins]创建了一个ThreadLocal，其键类型为[java.lang.ThreadLocal]（值为[java.lang.ThreadLocal@65747311]），值类型为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001d1d5237cd0]（值为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001d1d5237cd0@4c8ccc57），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+24-Mar-2024 12:50:53.532 严重 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[jenkins]创建了一个ThreadLocal，其键类型为[java.lang.ThreadLocal]（值为[java.lang.ThreadLocal@65747311]），值类型为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001d1d5237cd0]（值为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001d1d5237cd0@7ce069de），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+24-Mar-2024 12:50:53.577 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+24-Mar-2024 12:50:53.613 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+24-Mar-2024 22:53:11.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.87
+24-Mar-2024 22:53:11.679 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 11 2024 10:12:34 UTC
+24-Mar-2024 22:53:11.686 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.87.0
+24-Mar-2024 22:53:11.686 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+24-Mar-2024 22:53:11.687 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+24-Mar-2024 22:53:11.687 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+24-Mar-2024 22:53:11.687 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\Java\jdk-22
+24-Mar-2024 22:53:11.688 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    22+36-2370
+24-Mar-2024 22:53:11.688 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+24-Mar-2024 22:53:11.688 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\tomcat
+24-Mar-2024 22:53:11.688 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\tomcat
+24-Mar-2024 22:53:11.843 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2024 22:53:11.843 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2024 22:53:11.848 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2024 22:53:11.848 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2024 22:53:11.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2024 22:53:11.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\tomcat\conf\logging.properties
+24-Mar-2024 22:53:11.849 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2024 22:53:11.850 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2024 22:53:11.850 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2024 22:53:11.851 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+24-Mar-2024 22:53:11.851 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\tomcat
+24-Mar-2024 22:53:11.851 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\tomcat
+24-Mar-2024 22:53:11.851 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\tomcat\temp
+24-Mar-2024 22:53:11.910 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[E:\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;D:\Python\Python38\Scripts\;D:\Python\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath1;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Lua\Lua54;D:\Lua\Lua53\;D:\Lua\;D:\PortableGit;D:\PortableGit\cmd;D:\PortableGit\bin;D:\PortableGit\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;E:\Java\jdk-22\bin;D:\nodejs\;E:\BaiduNetdiskDownload\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;;C:\Program Files\Docker\Docker\resources\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;%IntelliJ IDEA%;%IntelliJ IDEA Community Edition%;%USERPROFILE%\.dotnet\tools;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\UGit\app-5.18.2\resources\app\git\cmd;C:\Users\Administrator\AppData\Local\UGit\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+24-Mar-2024 22:53:12.664 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+24-Mar-2024 22:53:12.752 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1787]毫秒内初始化
+24-Mar-2024 22:53:12.845 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+24-Mar-2024 22:53:12.846 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.87]
+24-Mar-2024 22:53:12.976 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[E:\tomcat\webapps\jenkins.war]
+24-Mar-2024 22:53:23.965 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+24-Mar-2024 22:53:24.977 信息 [main] hudson.WebAppMain.contextInitialized Jenkins home directory: E:\tomcat\jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+24-Mar-2024 22:53:25.716 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[E:\tomcat\webapps\jenkins.war]的部署已在[12,740]ms内完成
+24-Mar-2024 22:53:25.740 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\docs]
+24-Mar-2024 22:53:25.890 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\docs]的部署已在[150]毫秒内完成
+24-Mar-2024 22:53:25.891 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\download]
+24-Mar-2024 22:53:25.936 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\download]的部署已在[45]毫秒内完成
+24-Mar-2024 22:53:25.960 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\examples]
+24-Mar-2024 22:53:26.254 信息 [pool-7-thread-3] jenkins.InitReactorRunner$1.onAttained Started initialization
+24-Mar-2024 22:53:29.789 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\examples]的部署已在[3,829]毫秒内完成
+24-Mar-2024 22:53:29.842 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\host-manager]
+24-Mar-2024 22:53:30.046 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\host-manager]的部署已在[203]毫秒内完成
+24-Mar-2024 22:53:30.051 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\manager]
+24-Mar-2024 22:53:30.378 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\manager]的部署已在[328]毫秒内完成
+24-Mar-2024 22:53:30.380 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\ROOT]
+24-Mar-2024 22:53:30.493 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\ROOT]的部署已在[114]毫秒内完成
+24-Mar-2024 22:53:30.504 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+24-Mar-2024 22:53:30.809 信息 [main] org.apache.catalina.startup.Catalina.start [18054]毫秒后服务器启动
+24-Mar-2024 22:53:35.541 信息 [pool-7-thread-14] jenkins.InitReactorRunner$1.onAttained Listed all plugins
+24-Mar-2024 22:53:56.005 信息 [pool-7-thread-5] jenkins.InitReactorRunner$1.onAttained Prepared all plugins
+24-Mar-2024 22:53:56.093 信息 [pool-7-thread-6] jenkins.InitReactorRunner$1.onAttained Started all plugins
+24-Mar-2024 22:53:56.109 信息 [pool-7-thread-14] jenkins.InitReactorRunner$1.onAttained Augmented all extensions
+24-Mar-2024 22:53:57.703 信息 [pool-7-thread-6] hudson.plugins.build_timeout.global.GlobalTimeOutConfiguration.load global timeout not set
+24-Mar-2024 22:53:59.232 信息 [pool-7-thread-7] jenkins.InitReactorRunner$1.onAttained System config loaded
+24-Mar-2024 22:53:59.233 信息 [pool-7-thread-9] jenkins.InitReactorRunner$1.onAttained System config adapted
+24-Mar-2024 22:53:59.234 信息 [pool-7-thread-4] jenkins.InitReactorRunner$1.onAttained Loaded all jobs
+24-Mar-2024 22:53:59.310 信息 [pool-7-thread-8] jenkins.InitReactorRunner$1.onAttained Configuration for all jobs updated
+24-Mar-2024 22:53:59.396 信息 [Download metadata thread] hudson.util.Retrier.start Attempt #1 to do the action check updates server
+24-Mar-2024 22:53:59.499 信息 [pool-7-thread-8] jenkins.InitReactorRunner$1.onAttained Completed initialization
+24-Mar-2024 22:54:00.950 信息 [Jenkins initialization thread] hudson.lifecycle.Lifecycle.onReady Jenkins is fully up and running
+24-Mar-2024 22:57:59.616 信息 [Download metadata thread] hudson.model.DownloadService$Downloadable.load Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+24-Mar-2024 22:58:02.775 信息 [Download metadata thread] hudson.model.DownloadService$Downloadable.load Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+24-Mar-2024 22:58:06.025 信息 [Download metadata thread] hudson.model.DownloadService$Downloadable.load Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+24-Mar-2024 22:58:06.042 信息 [Download metadata thread] hudson.util.Retrier.start Performed the action check updates server successfully at the attempt #1
+24-Mar-2024 23:15:36.073 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/manager]
+24-Mar-2024 23:15:36.372 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\manager]
+24-Mar-2024 23:15:36.567 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\manager]的部署已在[195]毫秒内完成
+24-Mar-2024 23:16:06.609 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/manager]
+24-Mar-2024 23:16:06.631 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\manager]
+24-Mar-2024 23:16:06.708 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\manager]的部署已在[77]毫秒内完成
+24-Mar-2024 23:16:16.717 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/manager]
+24-Mar-2024 23:16:16.726 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\manager]
+24-Mar-2024 23:16:16.787 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\manager]的部署已在[60]毫秒内完成
+24-Mar-2024 23:57:02.965 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.87
+24-Mar-2024 23:57:02.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 11 2024 10:12:34 UTC
+24-Mar-2024 23:57:02.976 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.87.0
+24-Mar-2024 23:57:02.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+24-Mar-2024 23:57:02.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+24-Mar-2024 23:57:02.979 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+24-Mar-2024 23:57:02.980 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\Java\jdk-22
+24-Mar-2024 23:57:02.981 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    22+36-2370
+24-Mar-2024 23:57:02.981 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+24-Mar-2024 23:57:02.983 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\tomcat
+24-Mar-2024 23:57:02.983 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\tomcat
+24-Mar-2024 23:57:02.993 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2024 23:57:02.995 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2024 23:57:02.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2024 23:57:02.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2024 23:57:02.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2024 23:57:02.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\tomcat\conf\logging.properties
+24-Mar-2024 23:57:02.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2024 23:57:02.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2024 23:57:02.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2024 23:57:02.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+24-Mar-2024 23:57:02.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\tomcat
+24-Mar-2024 23:57:02.999 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\tomcat
+24-Mar-2024 23:57:02.999 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\tomcat\temp
+24-Mar-2024 23:57:03.029 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[E:\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;D:\Python\Python38\Scripts\;D:\Python\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath1;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Lua\Lua54;D:\Lua\Lua53\;D:\Lua\;D:\PortableGit;D:\PortableGit\cmd;D:\PortableGit\bin;D:\PortableGit\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;E:\Java\jdk-22\bin;D:\nodejs\;E:\BaiduNetdiskDownload\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;;C:\Program Files\Docker\Docker\resources\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;%IntelliJ IDEA%;%IntelliJ IDEA Community Edition%;%USERPROFILE%\.dotnet\tools;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\UGit\app-5.18.2\resources\app\git\cmd;C:\Users\Administrator\AppData\Local\UGit\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+24-Mar-2024 23:57:03.547 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+24-Mar-2024 23:57:03.587 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[947]毫秒内初始化
+24-Mar-2024 23:57:03.673 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+24-Mar-2024 23:57:03.673 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.87]
+24-Mar-2024 23:57:03.732 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[E:\tomcat\webapps\jenkins.war]
+24-Mar-2024 23:57:11.600 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+24-Mar-2024 23:57:12.818 信息 [main] hudson.WebAppMain.contextInitialized Jenkins home directory: E:\tomcat\jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+24-Mar-2024 23:57:13.496 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[E:\tomcat\webapps\jenkins.war]的部署已在[9,764]ms内完成
+24-Mar-2024 23:57:13.499 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\docs]
+24-Mar-2024 23:57:13.796 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\docs]的部署已在[297]毫秒内完成
+24-Mar-2024 23:57:13.798 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\download]
+24-Mar-2024 23:57:13.878 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\download]的部署已在[81]毫秒内完成
+24-Mar-2024 23:57:13.879 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\examples]
+24-Mar-2024 23:57:14.221 信息 [pool-7-thread-3] jenkins.InitReactorRunner$1.onAttained Started initialization
+24-Mar-2024 23:57:17.428 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\examples]的部署已在[3,549]毫秒内完成
+24-Mar-2024 23:57:17.429 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\host-manager]
+24-Mar-2024 23:57:17.663 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\host-manager]的部署已在[234]毫秒内完成
+24-Mar-2024 23:57:17.665 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\manager]
+24-Mar-2024 23:57:18.079 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\manager]的部署已在[413]毫秒内完成
+24-Mar-2024 23:57:18.079 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\ROOT]
+24-Mar-2024 23:57:18.138 信息 [pool-7-thread-4] jenkins.InitReactorRunner$1.onAttained Listed all plugins
+24-Mar-2024 23:57:18.268 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\ROOT]的部署已在[189]毫秒内完成
+24-Mar-2024 23:57:18.275 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+24-Mar-2024 23:57:18.462 信息 [main] org.apache.catalina.startup.Catalina.start [14870]毫秒后服务器启动
+24-Mar-2024 23:57:30.156 信息 [pool-7-thread-3] jenkins.InitReactorRunner$1.onAttained Prepared all plugins
+24-Mar-2024 23:57:30.219 信息 [pool-7-thread-7] jenkins.InitReactorRunner$1.onAttained Started all plugins
+24-Mar-2024 23:57:30.235 信息 [pool-7-thread-2] jenkins.InitReactorRunner$1.onAttained Augmented all extensions
+24-Mar-2024 23:57:31.012 信息 [pool-7-thread-4] hudson.plugins.build_timeout.global.GlobalTimeOutConfiguration.load global timeout not set
+24-Mar-2024 23:57:32.388 信息 [pool-7-thread-15] jenkins.InitReactorRunner$1.onAttained System config loaded
+24-Mar-2024 23:57:32.389 信息 [pool-7-thread-10] jenkins.InitReactorRunner$1.onAttained System config adapted
+24-Mar-2024 23:57:32.417 信息 [pool-7-thread-9] jenkins.InitReactorRunner$1.onAttained Loaded all jobs
+24-Mar-2024 23:57:32.504 信息 [pool-7-thread-5] jenkins.InitReactorRunner$1.onAttained Configuration for all jobs updated
+24-Mar-2024 23:57:32.704 信息 [pool-7-thread-5] jenkins.InitReactorRunner$1.onAttained Completed initialization
+24-Mar-2024 23:57:34.529 信息 [Jenkins initialization thread] hudson.lifecycle.Lifecycle.onReady Jenkins is fully up and running
+24-Mar-2024 23:57:51.370 警告 [Handling GET /jenkins/ from 192.168.199.138 : http-nio-8080-exec-3] hudson.init.impl.InstallUncaughtExceptionHandler.handleException null
+	javax.servlet.ServletException: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.kohsuke.stapler.Facet.handleIndexRequest(Facet.java:287)
+		at org.kohsuke.stapler.jelly.JellyFacet.handleIndexRequest(JellyFacet.java:104)
+		at org.kohsuke.stapler.IndexViewDispatcher.dispatch(IndexViewDispatcher.java:32)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:836)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:698)
+		at org.kohsuke.stapler.Stapler.service(Stapler.java:248)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:163)
+		at jenkins.util.HttpServletFilter$1.doFilter(HttpServletFilter.java:76)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:160)
+		at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.ErrorAttributeFilter.doFilter(ErrorAttributeFilter.java:29)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:160)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:94)
+		at jenkins.security.AcegiSecurityExceptionFilter.doFilter(AcegiSecurityExceptionFilter.java:52)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:54)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:110)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:101)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:97)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+		at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:63)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:111)
+		at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:172)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:86)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.security.SuspiciousRequestFilter.doFilter(SuspiciousRequestFilter.java:38)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:345)
+		at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:780)
+		at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:677)
+		at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:380)
+		at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:358)
+		at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:103)
+		at com.jcraft.jzlib.DeflaterOutputStream.deflate(DeflaterOutputStream.java:144)
+		at com.jcraft.jzlib.DeflaterOutputStream.finish(DeflaterOutputStream.java:111)
+		at com.jcraft.jzlib.DeflaterOutputStream.close(DeflaterOutputStream.java:117)
+		at org.kohsuke.stapler.compression.FilterServletOutputStream.close(FilterServletOutputStream.java:46)
+		at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.close(OnCommittedResponseWrapper.java:529)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker$1.close(DefaultScriptInvoker.java:148)
+		at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:413)
+		at java.base/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:231)
+		at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:216)
+		at java.base/java.io.OutputStreamWriter.close(OutputStreamWriter.java:264)
+		at java.base/java.io.BufferedWriter.implClose(BufferedWriter.java:398)
+		at java.base/java.io.BufferedWriter.close(BufferedWriter.java:380)
+		at org.dom4j.io.XMLWriter.close(XMLWriter.java:285)
+		at org.kohsuke.stapler.jelly.HTMLWriterOutput.close(HTMLWriterOutput.java:75)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:58)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:56)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:43)
+		at org.kohsuke.stapler.Facet.handleIndexRequest(Facet.java:284)
+		... 81 more
+	Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+		at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+		at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:566)
+		at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:618)
+		at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1423)
+		at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:775)
+		at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:600)
+		at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:544)
+		at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:540)
+		at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:112)
+		at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+		at org.apache.coyote.Response.doWrite(Response.java:608)
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:333)
+		... 104 more
+24-Mar-2024 23:58:17.447 警告 [Handling GET /jenkins/manage/ from 192.168.199.138 : http-nio-8080-exec-5] hudson.init.impl.InstallUncaughtExceptionHandler.handleException null
+	javax.servlet.ServletException: org.apache.commons.jelly.JellyTagException: jar:file:/E:/tomcat/webapps/jenkins/WEB-INF/lib/jenkins-core-2.440.2.jar!/lib/layout/icon.jelly:80:32: <j:out> could not write the XMLOutput
+		at org.kohsuke.stapler.Facet.handleIndexRequest(Facet.java:287)
+		at org.kohsuke.stapler.jelly.JellyFacet.handleIndexRequest(JellyFacet.java:104)
+		at org.kohsuke.stapler.IndexViewDispatcher.dispatch(IndexViewDispatcher.java:32)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.MetaClass$9.dispatch(MetaClass.java:475)
+		at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+		at org.kohsuke.stapler.Stapler.invoke(Stapler.java:698)
+		at org.kohsuke.stapler.Stapler.service(Stapler.java:248)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:163)
+		at jenkins.util.HttpServletFilter$1.doFilter(HttpServletFilter.java:76)
+		at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:160)
+		at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:166)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.ErrorAttributeFilter.doFilter(ErrorAttributeFilter.java:29)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:160)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:94)
+		at jenkins.security.AcegiSecurityExceptionFilter.doFilter(AcegiSecurityExceptionFilter.java:52)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:54)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+		at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:110)
+		at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:101)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:97)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+		at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+		at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:63)
+		at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:99)
+		at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:111)
+		at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:172)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:86)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at jenkins.security.SuspiciousRequestFilter.doFilter(SuspiciousRequestFilter.java:38)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: org.apache.commons.jelly.JellyTagException: jar:file:/E:/tomcat/webapps/jenkins/WEB-INF/lib/jenkins-core-2.440.2.jar!/lib/layout/icon.jelly:80:32: <j:out> could not write the XMLOutput
+		at org.apache.commons.jelly.tags.core.ExprTag.doTag(ExprTag.java:49)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+		at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+		at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+		at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+		at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+		at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+		at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:99)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:66)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:55)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:56)
+		at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:43)
+		at org.kohsuke.stapler.Facet.handleIndexRequest(Facet.java:284)
+		... 82 more
+	Caused by: org.xml.sax.SAXException: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.dom4j.io.XMLWriter.handleException(XMLWriter.java:1852)
+		at org.dom4j.io.XMLWriter.characters(XMLWriter.java:780)
+		at org.apache.commons.jelly.XMLOutput.characters(XMLOutput.java:590)
+		at org.apache.commons.jelly.XMLOutput.write(XMLOutput.java:249)
+		at org.apache.commons.jelly.tags.core.ExprTag.doTag(ExprTag.java:46)
+		... 141 more
+	Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:345)
+		at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:780)
+		at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:677)
+		at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:380)
+		at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:358)
+		at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:103)
+		at com.jcraft.jzlib.DeflaterOutputStream.deflate(DeflaterOutputStream.java:144)
+		at com.jcraft.jzlib.DeflaterOutputStream.write(DeflaterOutputStream.java:102)
+		at org.kohsuke.stapler.compression.FilterServletOutputStream.write(FilterServletOutputStream.java:41)
+		at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.write(OnCommittedResponseWrapper.java:638)
+		at org.kohsuke.stapler.jelly.DefaultScriptInvoker$1.write(DefaultScriptInvoker.java:136)
+		at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:291)
+		at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:362)
+		at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:338)
+		at java.base/sun.nio.cs.StreamEncoder.lockedWrite(StreamEncoder.java:152)
+		at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:133)
+		at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:217)
+		at java.base/java.io.BufferedWriter.implFlushBuffer(BufferedWriter.java:178)
+		at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:163)
+		at java.base/java.io.BufferedWriter.implWrite(BufferedWriter.java:334)
+		at java.base/java.io.BufferedWriter.write(BufferedWriter.java:313)
+		at java.base/java.io.Writer.write(Writer.java:278)
+		at org.dom4j.io.XMLWriter.characters(XMLWriter.java:771)
+		... 144 more
+	Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+		at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+		at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+		at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:566)
+		at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:618)
+		at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1423)
+		at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:775)
+		at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:600)
+		at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:544)
+		at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:540)
+		at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:112)
+		at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+		at org.apache.coyote.Response.doWrite(Response.java:608)
+		at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:333)
+		... 166 more

@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-03-23 11:15:23.276 UTC</timestamp>
+  <md5sum>dcee71ce9745dfc3600366ddc3ce7237</md5sum>
+  <fileName>Credential id=aaad9e20-b257-4b4c-b8a2-6b3b38e64f67 name=陈君gitee账号</fileName>
+  <usages>
+    <entry>
+      <string>山有扶苏/master</string>
+      <ranges>1-3,5,8-9</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1711195297196</timestamp>
+      <itemFullName>Test</itemFullName>
+      <timestamp0>1711195215763</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

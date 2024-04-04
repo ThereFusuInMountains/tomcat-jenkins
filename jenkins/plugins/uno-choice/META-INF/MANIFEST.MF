@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Active Choices Plug-in
+Specification-Version: 2.8
+Implementation-Title: Active Choices Plug-in
+Implementation-Version: 2.8.1
+Group-Id: org.biouno
+Artifact-Id: uno-choice
+Short-Name: uno-choice
+Long-Name: Active Choices Plug-in
+Url: https://github.com/jenkinsci/active-choices-plugin
+Compatible-Since-Version: 2.0
+Plugin-Version: 2.8.1
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: commons-lang3-api:3.13.0-62.v7d18e55f51e2,commons-t
+ ext-api:1.10.0-78.v3e7b_ea_d5a_fe1,jquery3-api:3.7.1-1,antisamy-markup-
+ formatter:162.v0e6ec0fcfcf6,script-security:1275.v23895f409fb_d,scriptl
+ er:334.v29792d5a_c058;resolution:=optional
+Plugin-Developers: Bruno P. Kinoshita:kinow:,Ioannis K. Moutsatsos:imout
+ satsos:
+Plugin-License-Name: The MIT license
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/active-choice
+ s-plugin.git
+Plugin-ScmTag: uno-choice-2.8.1
+Plugin-ScmUrl: https://github.com/jenkinsci/active-choices-plugin
+Plugin-GitHash: ca9ac33f908ecc9fc3662115d0a720d6ece7eab4
+Implementation-Build: ca9ac33f908ecc9fc3662115d0a720d6ece7eab4
+

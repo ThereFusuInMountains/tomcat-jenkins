@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jenkins-ci.plugins</groupId>
+  <artifactId>localization-zh-cn</artifactId>
+  <version>371.v23851f835d6b_</version>
+  <packaging>hpi</packaging>
+  <name>Localization: Chinese (Simplified)</name>
+  <description>The Jenkins Plugins Parent POM Project</description>
+  <url>https://github.com/jenkinsci/localization-zh-cn-plugin</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>linuxsuren</id>
+      <name>Zhao Xiaojie</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:ssh://github.com/jenkinsci/localization-zh-cn-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/localization-zh-cn-plugin.git</developerConnection>
+    <tag>23851f835d6b816eb76b6fd813c85bcac393b0b5</tag>
+    <url>https://github.com/jenkinsci/localization-zh-cn-plugin</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jenkins-ci</groupId>
+      <artifactId>symbol-annotation</artifactId>
+      <version>1.24</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>localization-support</artifactId>
+      <version>1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.48</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

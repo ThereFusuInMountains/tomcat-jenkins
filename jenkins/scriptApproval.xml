@@ -1,0 +1,22 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<scriptApproval plugin="script-security@1326.vdb_c154de8669">
+  <approvedScriptHashes/>
+  <approvedSignatures>
+    <string>method com.fasterxml.jackson.databind.ObjectMapper writerWithDefaultPrettyPrinter</string>
+    <string>method com.fasterxml.jackson.databind.ObjectWriter writeValueAsString java.lang.Object</string>
+    <string>method hudson.model.AbstractCIBase getNodes</string>
+    <string>method hudson.model.Computer getExecutors</string>
+    <string>method hudson.model.Node getNumExecutors</string>
+    <string>method hudson.model.Slave getComputer</string>
+    <string>method java.io.File getFreeSpace</string>
+    <string>method java.lang.Class newInstance</string>
+    <string>method java.util.Dictionary put java.lang.Object java.lang.Object</string>
+    <string>new java.io.File java.lang.String</string>
+    <string>staticMethod jenkins.model.Jenkins getInstance</string>
+  </approvedSignatures>
+  <aclApprovedSignatures/>
+  <approvedClasspathEntries/>
+  <pendingScripts/>
+  <pendingSignatures/>
+  <pendingClasspathEntries/>
+</scriptApproval>

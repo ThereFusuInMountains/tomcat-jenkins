@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.289.1
+Implementation-Title: Localization Support Plugin
+Long-Name: Localization Support Plugin
+Implementation-Version: 1.2
+Group-Id: io.jenkins.plugins
+Minimum-Java-Version: 1.8
+Plugin-License-Name: MIT License
+Specification-Title: Localization Support Plugin
+Plugin-ScmUrl: https://github.com/jenkinsci/localization-support-plugi
+ n
+Plugin-Version: 1.2
+Jenkins-Version: 2.289.1
+Url: https://github.com/jenkinsci/localization-support-plugin
+Short-Name: localization-support
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-Developers: 
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.2
+Specification-Version: 1.2
+

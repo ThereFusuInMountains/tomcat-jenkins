@@ -1,0 +1,190 @@
+04-Apr-2024 11:59:35.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.87
+04-Apr-2024 11:59:35.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 11 2024 10:12:34 UTC
+04-Apr-2024 11:59:35.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.87.0
+04-Apr-2024 11:59:35.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+04-Apr-2024 11:59:35.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+04-Apr-2024 11:59:35.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+04-Apr-2024 11:59:35.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\Java\jdk-22
+04-Apr-2024 11:59:35.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    22+36-2370
+04-Apr-2024 11:59:35.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+04-Apr-2024 11:59:35.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\tomcat
+04-Apr-2024 11:59:35.123 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\tomcat
+04-Apr-2024 11:59:35.201 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Apr-2024 11:59:35.201 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+04-Apr-2024 11:59:35.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+04-Apr-2024 11:59:35.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Apr-2024 11:59:35.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Apr-2024 11:59:35.206 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\tomcat\conf\logging.properties
+04-Apr-2024 11:59:35.208 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2024 11:59:35.209 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2024 11:59:35.210 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2024 11:59:35.210 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+04-Apr-2024 11:59:35.211 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\tomcat
+04-Apr-2024 11:59:35.211 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\tomcat
+04-Apr-2024 11:59:35.211 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\tomcat\temp
+04-Apr-2024 11:59:35.276 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[E:\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;D:\Python\Python38\Scripts\;D:\Python\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath1;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Lua\Lua54;D:\Lua\Lua53\;D:\Lua\;D:\PortableGit;D:\PortableGit\cmd;D:\PortableGit\bin;D:\PortableGit\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;E:\Java\jdk-22\bin;D:\nodejs\;E:\BaiduNetdiskDownload\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;;C:\Program Files\Docker\Docker\resources\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;%IntelliJ IDEA%;%IntelliJ IDEA Community Edition%;%USERPROFILE%\.dotnet\tools;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\UGit\app-5.18.2\resources\app\git\cmd;C:\Users\Administrator\AppData\Local\UGit\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+04-Apr-2024 11:59:35.968 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+04-Apr-2024 11:59:36.079 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1742]毫秒内初始化
+04-Apr-2024 11:59:36.190 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+04-Apr-2024 11:59:36.190 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.87]
+04-Apr-2024 11:59:36.329 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[E:\tomcat\webapps\jenkins.war]
+04-Apr-2024 11:59:46.968 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+04-Apr-2024 11:59:47.820 信息 [main] hudson.WebAppMain.contextInitialized Jenkins home directory: E:\tomcat\jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+04-Apr-2024 11:59:48.460 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[E:\tomcat\webapps\jenkins.war]的部署已在[12,130]ms内完成
+04-Apr-2024 11:59:48.462 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\docs]
+04-Apr-2024 11:59:48.574 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\docs]的部署已在[112]毫秒内完成
+04-Apr-2024 11:59:48.574 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\download]
+04-Apr-2024 11:59:48.630 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\download]的部署已在[55]毫秒内完成
+04-Apr-2024 11:59:48.630 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\examples]
+04-Apr-2024 11:59:48.954 信息 [pool-7-thread-3] jenkins.InitReactorRunner$1.onAttained Started initialization
+04-Apr-2024 11:59:53.275 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\examples]的部署已在[4,644]毫秒内完成
+04-Apr-2024 11:59:53.276 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\host-manager]
+04-Apr-2024 11:59:53.405 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\host-manager]的部署已在[130]毫秒内完成
+04-Apr-2024 11:59:53.406 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\manager]
+04-Apr-2024 11:59:53.543 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\manager]的部署已在[136]毫秒内完成
+04-Apr-2024 11:59:53.544 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\ROOT]
+04-Apr-2024 11:59:53.603 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\ROOT]的部署已在[60]毫秒内完成
+04-Apr-2024 11:59:53.614 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+04-Apr-2024 11:59:54.093 信息 [main] org.apache.catalina.startup.Catalina.start [18010]毫秒后服务器启动
+04-Apr-2024 11:59:55.724 信息 [pool-7-thread-9] jenkins.InitReactorRunner$1.onAttained Listed all plugins
+04-Apr-2024 12:00:15.733 信息 [pool-7-thread-1] jenkins.InitReactorRunner$1.onAttained Prepared all plugins
+04-Apr-2024 12:00:16.329 信息 [pool-7-thread-15] jenkins.InitReactorRunner$1.onAttained Started all plugins
+04-Apr-2024 12:00:16.492 信息 [pool-7-thread-1] jenkins.InitReactorRunner$1.onAttained Augmented all extensions
+04-Apr-2024 12:00:19.046 信息 [GitSCM.onLoaded] hudson.plugins.build_timeout.global.GlobalTimeOutConfiguration.load global timeout not set
+04-Apr-2024 12:00:21.104 信息 [pool-7-thread-16] jenkins.InitReactorRunner$1.onAttained System config loaded
+04-Apr-2024 12:00:21.105 信息 [pool-7-thread-13] jenkins.InitReactorRunner$1.onAttained System config adapted
+04-Apr-2024 12:00:21.107 信息 [pool-7-thread-9] jenkins.InitReactorRunner$1.onAttained Loaded all jobs
+04-Apr-2024 12:00:21.196 信息 [pool-7-thread-9] jenkins.InitReactorRunner$1.onAttained Configuration for all jobs updated
+04-Apr-2024 12:00:21.271 信息 [Download metadata thread] hudson.util.Retrier.start Attempt #1 to do the action check updates server
+04-Apr-2024 12:00:21.353 信息 [pool-7-thread-14] jenkins.InitReactorRunner$1.onAttained Completed initialization
+04-Apr-2024 12:00:22.300 信息 [Jenkins initialization thread] hudson.lifecycle.Lifecycle.onReady Jenkins is fully up and running
+04-Apr-2024 12:00:54.424 信息 [Download metadata thread] hudson.model.DownloadService$Downloadable.load Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+04-Apr-2024 12:00:55.543 信息 [Download metadata thread] hudson.model.DownloadService$Downloadable.load Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+04-Apr-2024 12:00:57.010 信息 [Download metadata thread] hudson.model.DownloadService$Downloadable.load Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+04-Apr-2024 12:00:57.012 信息 [Download metadata thread] hudson.util.Retrier.start Performed the action check updates server successfully at the attempt #1
+04-Apr-2024 12:01:22.982 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.87
+04-Apr-2024 12:01:22.987 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 11 2024 10:12:34 UTC
+04-Apr-2024 12:01:22.987 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.87.0
+04-Apr-2024 12:01:22.988 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+04-Apr-2024 12:01:22.988 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+04-Apr-2024 12:01:22.988 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+04-Apr-2024 12:01:22.989 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\Java\jdk-22
+04-Apr-2024 12:01:22.989 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    22+36-2370
+04-Apr-2024 12:01:22.989 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+04-Apr-2024 12:01:22.989 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\tomcat
+04-Apr-2024 12:01:22.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\tomcat
+04-Apr-2024 12:01:23.000 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Apr-2024 12:01:23.000 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+04-Apr-2024 12:01:23.001 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+04-Apr-2024 12:01:23.001 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Apr-2024 12:01:23.001 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Apr-2024 12:01:23.001 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\tomcat\conf\logging.properties
+04-Apr-2024 12:01:23.001 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2024 12:01:23.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2024 12:01:23.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2024 12:01:23.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+04-Apr-2024 12:01:23.003 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\tomcat
+04-Apr-2024 12:01:23.003 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\tomcat
+04-Apr-2024 12:01:23.004 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\tomcat\temp
+04-Apr-2024 12:01:23.023 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[E:\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;D:\Python\Python38\Scripts\;D:\Python\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath1;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Lua\Lua54;D:\Lua\Lua53\;D:\Lua\;D:\PortableGit;D:\PortableGit\cmd;D:\PortableGit\bin;D:\PortableGit\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;E:\Java\jdk-22\bin;D:\nodejs\;E:\BaiduNetdiskDownload\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;;C:\Program Files\Docker\Docker\resources\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;%IntelliJ IDEA%;%IntelliJ IDEA Community Edition%;%USERPROFILE%\.dotnet\tools;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\UGit\app-5.18.2\resources\app\git\cmd;C:\Users\Administrator\AppData\Local\UGit\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+04-Apr-2024 12:01:23.442 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+04-Apr-2024 12:01:23.475 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[771]毫秒内初始化
+04-Apr-2024 12:01:23.548 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+04-Apr-2024 12:01:23.549 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.87]
+04-Apr-2024 12:01:23.587 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[E:\tomcat\webapps\jenkins.war]
+04-Apr-2024 12:01:29.552 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+04-Apr-2024 12:01:30.204 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+04-Apr-2024 12:01:31.162 信息 [main] hudson.WebAppMain.contextInitialized Jenkins home directory: E:\tomcat\jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+04-Apr-2024 12:01:31.607 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[E:\tomcat\webapps\jenkins.war]的部署已在[8,020]ms内完成
+04-Apr-2024 12:01:31.609 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\docs]
+04-Apr-2024 12:01:31.725 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\docs]的部署已在[117]毫秒内完成
+04-Apr-2024 12:01:31.725 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\download]
+04-Apr-2024 12:01:31.791 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\download]的部署已在[65]毫秒内完成
+04-Apr-2024 12:01:31.791 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\examples]
+04-Apr-2024 12:01:32.261 信息 [pool-7-thread-3] jenkins.InitReactorRunner$1.onAttained Started initialization
+04-Apr-2024 12:01:33.077 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\examples]的部署已在[1,285]毫秒内完成
+04-Apr-2024 12:01:33.078 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\host-manager]
+04-Apr-2024 12:01:33.149 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\host-manager]的部署已在[72]毫秒内完成
+04-Apr-2024 12:01:33.150 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\manager]
+04-Apr-2024 12:01:33.228 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\manager]的部署已在[79]毫秒内完成
+04-Apr-2024 12:01:33.229 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\tomcat\webapps\ROOT]
+04-Apr-2024 12:01:33.281 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\tomcat\webapps\ROOT]的部署已在[51]毫秒内完成
+04-Apr-2024 12:01:33.295 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+04-Apr-2024 12:01:33.348 信息 [main] org.apache.catalina.startup.Catalina.start [9871]毫秒后服务器启动
+04-Apr-2024 12:01:34.112 信息 [pool-7-thread-10] jenkins.InitReactorRunner$1.onAttained Listed all plugins
+04-Apr-2024 12:01:41.626 信息 [pool-7-thread-3] jenkins.InitReactorRunner$1.onAttained Prepared all plugins
+04-Apr-2024 12:01:41.669 信息 [pool-7-thread-16] jenkins.InitReactorRunner$1.onAttained Started all plugins
+04-Apr-2024 12:01:41.686 信息 [pool-7-thread-8] jenkins.InitReactorRunner$1.onAttained Augmented all extensions
+04-Apr-2024 12:01:43.379 信息 [GitSCM.onLoaded] hudson.plugins.build_timeout.global.GlobalTimeOutConfiguration.load global timeout not set
+04-Apr-2024 12:01:45.428 信息 [pool-7-thread-10] jenkins.InitReactorRunner$1.onAttained System config loaded
+04-Apr-2024 12:01:45.429 信息 [pool-7-thread-2] jenkins.InitReactorRunner$1.onAttained System config adapted
+04-Apr-2024 12:01:46.400 信息 [pool-7-thread-4] jenkins.InitReactorRunner$1.onAttained Loaded all jobs
+04-Apr-2024 12:01:46.467 信息 [pool-7-thread-15] jenkins.InitReactorRunner$1.onAttained Configuration for all jobs updated
+04-Apr-2024 12:01:46.590 信息 [pool-7-thread-9] jenkins.InitReactorRunner$1.onAttained Completed initialization
+04-Apr-2024 12:01:46.758 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+04-Apr-2024 12:01:46.759 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+04-Apr-2024 12:01:46.770 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+04-Apr-2024 12:01:46.815 信息 [main] hudson.lifecycle.Lifecycle.onStatusUpdate Stopping Jenkins
+04-Apr-2024 12:01:49.012 信息 [Jenkins initialization thread] hudson.lifecycle.Lifecycle.onReady Jenkins is fully up and running
+04-Apr-2024 12:01:49.042 信息 [main] jenkins.model.Jenkins$16.onAttained Started termination
+04-Apr-2024 12:01:49.056 信息 [main] hudson.plugins.build_timeout.global.Lifecycle.shutdown Shutdown complete - Global TimeOut ScheduledExecutorService had 0 tasks pending
+04-Apr-2024 12:01:49.075 信息 [main] jenkins.model.Jenkins$16.onAttained Completed termination
+04-Apr-2024 12:01:49.075 信息 [main] jenkins.model.Jenkins._cleanUpDisconnectComputers Starting node disconnection
+04-Apr-2024 12:01:49.092 信息 [main] jenkins.model.Jenkins._cleanUpShutdownPluginManager Stopping plugin manager
+04-Apr-2024 12:01:49.097 信息 [main] jenkins.model.Jenkins._cleanUpPersistQueue Persisting build queue
+04-Apr-2024 12:01:49.158 信息 [main] jenkins.model.Jenkins._cleanUpAwaitDisconnects Waiting for node disconnection completion
+04-Apr-2024 12:01:49.159 信息 [main] hudson.lifecycle.Lifecycle.onStatusUpdate Jenkins stopped
+04-Apr-2024 12:01:49.163 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[jenkins]似乎启动了一个名为[hudson.util.AtomicFileWriter.cleaner [#1]]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ java.base/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+ java.base/java.lang.Thread.run(Thread.java:1570)]
+04-Apr-2024 12:01:49.166 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[jenkins]似乎启动了一个名为[JNA Cleaner]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)]
+04-Apr-2024 12:01:49.167 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[jenkins]似乎启动了一个名为[Computer.threadPoolForRemoting [#1]]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+ java.base/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+ java.base/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+ java.base/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:233)
+ java.base/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:336)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)]
+04-Apr-2024 12:01:49.168 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[jenkins]似乎启动了一个名为[Computer.threadPoolForRemoting [#2]]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+ java.base/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+ java.base/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+ java.base/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:233)
+ java.base/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:336)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)]
+04-Apr-2024 12:01:49.179 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[jenkins]似乎启动了一个名为[Timeout.interruptions [#1]]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)]
+04-Apr-2024 12:01:49.180 严重 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[jenkins]创建了一个ThreadLocal，其键类型为[java.lang.ThreadLocal]（值为[java.lang.ThreadLocal@9b7701f]），值类型为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001ad01235458]（值为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001ad01235458@27631923），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+04-Apr-2024 12:01:49.181 严重 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[jenkins]创建了一个ThreadLocal，其键类型为[java.lang.ThreadLocal]（值为[java.lang.ThreadLocal@9b7701f]），值类型为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001ad01235458]（值为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001ad01235458@3ce9c492），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+04-Apr-2024 12:01:49.181 严重 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[jenkins]创建了一个ThreadLocal，其键类型为[java.lang.ThreadLocal]（值为[java.lang.ThreadLocal@9b7701f]），值类型为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001ad01235458]（值为[org.springframework.security.core.context.ThreadLocalSecurityContextHolderStrategy$$Lambda/0x000001ad01235458@43b60ce1），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+04-Apr-2024 12:01:49.198 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+04-Apr-2024 12:01:49.204 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]

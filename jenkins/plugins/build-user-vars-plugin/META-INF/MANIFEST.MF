@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.332.1
+Plugin-Dependencies: branch-api:2.1046.v0ca_37783ecc5;resolution:=opti
+ onal,mailer:435.v79ef3972b_5c7,saml:2.333.vc81e525974a_c;resolution:=
+ optional
+Implementation-Title: Jenkins build user vars plugin
+Long-Name: Jenkins build user vars plugin
+Implementation-Version: 1.9
+Group-Id: org.jenkins-ci.plugins
+Plugin-License-Name: MIT license
+Specification-Title: Jenkins build user vars plugin
+Plugin-ScmUrl: https://github.com/jenkinsci/build-user-vars-plugin
+Plugin-Version: 1.9
+Jenkins-Version: 2.332.1
+Url: https://github.com/jenkinsci/build-user-vars-plugin
+Short-Name: build-user-vars-plugin
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-Developers: Gavriil Konovalenko:gkonovalenko:gkonovalenko@gmail
+ .com
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.6.0
+Specification-Version: 1.9
+

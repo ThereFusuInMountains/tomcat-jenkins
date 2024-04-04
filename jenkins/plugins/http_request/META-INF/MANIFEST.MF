@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: HTTP Request Plugin
+Specification-Version: 1.18
+Implementation-Title: HTTP Request Plugin
+Implementation-Version: 1.18
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: http_request
+Short-Name: http_request
+Long-Name: HTTP Request Plugin
+Url: https://github.com/jenkinsci/http-request-plugin
+Compatible-Since-Version: 1.16
+Plugin-Version: 1.18
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Dependencies: workflow-basic-steps:1017.vb_45b_302f0cea_,workflow
+ -durable-task-step:1246.v5524618ea_097,workflow-step-api:639.v6eca_cd8c
+ 04a_a_;resolution:=optional,apache-httpcomponents-client-4-api:4.5.14-1
+ 50.v7a_b_9d17134a_5,credentials:1189.vf61b_a_5e2f62e,script-security:12
+ 44.ve463715a_f89c
+Plugin-Developers: Janario Oliveira:janario:janario.oliveira@gmail.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/http-request-
+ plugin.git
+Plugin-ScmTag: http_request-1.18
+Plugin-ScmUrl: https://github.com/jenkinsci/http-request-plugin
+Plugin-GitHash: 41ccb125fa91521a3db65919892b7a4269571253
+Implementation-Build: 41ccb125fa91521a3db65919892b7a4269571253
+

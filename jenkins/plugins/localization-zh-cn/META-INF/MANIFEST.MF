@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Localization: Chinese (Simplified)
+Specification-Version: 0.0
+Implementation-Title: Localization: Chinese (Simplified)
+Implementation-Version: 371.v23851f835d6b_
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: localization-zh-cn
+Short-Name: localization-zh-cn
+Long-Name: Localization: Chinese (Simplified)
+Url: https://github.com/jenkinsci/localization-zh-cn-plugin
+Plugin-Version: 371.v23851f835d6b_
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: localization-support:1.2
+Plugin-Developers: Zhao Xiaojie:linuxsuren:
+Plugin-ScmConnection: scm:git:ssh://github.com/jenkinsci/localization-zh
+ -cn-plugin.git
+Plugin-ScmTag: 23851f835d6b816eb76b6fd813c85bcac393b0b5
+Plugin-ScmUrl: https://github.com/jenkinsci/localization-zh-cn-plugin
+Plugin-GitHash: 23851f835d6b816eb76b6fd813c85bcac393b0b5
+Implementation-Build: 23851f835d6b816eb76b6fd813c85bcac393b0b5
+
